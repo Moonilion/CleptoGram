@@ -1,0 +1,121 @@
+body {float:left;}
+.clepto_img{/* width:100px;height:200px;position: relative;*/
+min-height: 250px;
+text-align: center;
+max-height: 100%;
+} 
+/* .clepto_img img{width:100px; position: absolute; top: auto; bottom: 0; margin: auto 0;} */
+.clepto_div{width:100px;float: left;margin: 2px; }
+.clepto_desc{width:100%;float: left;margin: 2px;}
+.clepto_qty{display:block;width:39%;position: relative;float:left;text-align:center;background-color:#EEE;margin-top:3px;font-size:20px;height:35px;}
+.clepto_price{display:block;width:100%;position: relative;float:left;text-align:center;background-color:#EEE;}
+.minpl{	margin: 1%; padding: 10px 0; width:31.33%;position: relative;float:left;text-align:center;}
+.clgen{padding: 10px;}
+.clepto_cost{display:block;width:59%;position: relative;float:left;text-align:center;background-color:#DDD;}
+#clepto_qty{width:70%;height:100px;}
+#generate{position: relative;float:left;
+float: left;
+    font-family: Arial,sans-serif;
+    font-size: 2em;
+    background: #874C16;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+}
+#total_cost{position: relative;float:left;}
+
+.plus1, .plus5, .plus10 {background: #BFFFCA; color: #888; border-radius: 4px;}
+.minus1, .minus5, .minus10 {background: #FFDEBF; color: #888; border-radius: 4px;}
+.minus1:hover, .minus5:hover, .minus10:hover, .plus1:hover, .plus5:hover, .plus10:hover {opacity: 0.8;}
+
+div#total_cost {
+	position: fixed;
+	top: 131px;
+	right: 0;
+	font-family: Arial,sans-serif;
+	font-size: 2.8em;
+	background: #eeeeee;
+	width: 235px;
+	text-align: center;
+	padding: 10px;
+}
+
+div#but_panel {
+	top: 0;
+	right: 0;
+	position: fixed;
+	width: 235px;
+	display: none;
+	/*background: #874C16;*/
+}
+
+.buts{
+	float: left;
+	position: relative;
+	width:25%;
+	text-align: center;
+	border: solid 2px black;
+	margin: 0 2px;
+	background: #A98C71;
+	font-size: 135%;
+}
+
+input#generate {
+	top: 50;
+	right: 0;
+	position: fixed;
+}
+
+.clepto_img img {
+    max-width: 100%;
+}
+
+h1 {
+    text-align: center;
+	font-size: 4em;
+}
+
+@media (min-width: 900px) {
+.clepto_div {width: 48%;}
+}
+@media (min-width: 1050px) {
+.clepto_div {width: 32%;}
+}
+@media (min-width: 1200px) {
+.clepto_div {width: 24%;}
+}
+@media (min-width: 2000px) {
+.clepto_div {width: 18%;}
+}
+
+@media (orientation: portrait) {
+div {font-family: Arial,sans-serif;font-size: 1.8em;}
+.clepto_div {width: 100%;}
+.clepto_img img {width: 100%;}
+.clepto_img {margin: 0 auto;max-width: 80%;margin-bottom: 30px;margin-top: 30px;}
+.minpl {padding: 40px 0;}
+
+
+.clepto_desc {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+	height: 100px;
+}
+.clepto_img {
+    max-height: 100%;
+}
+}
+
+
+@media (orientation: landscape) {
+.clepto_img {
+    width: 50%;
+    display: inline-block;
+	vertical-align: top;
+}
+.buttons {
+    width: 50%;
+    display: inline-block;
+}
+}
